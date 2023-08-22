@@ -22,7 +22,7 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Deck">
         <Stack.Screen name="Deck" component={HomeScreen} />
-        <Stack.Screen name="CreateFlashCard" component={CreateFlashCard} />
+        <Stack.Screen name="Create Flash Card" component={CreateFlashCard} />
         <Stack.Screen name="Review" component={Review} />
       </Stack.Navigator>
       </NavigationContainer>
